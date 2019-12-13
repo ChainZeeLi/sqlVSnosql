@@ -6,8 +6,8 @@ SQL database is used for structured data, where every data recond inside a table
 NoSQL database is good for storing non-structure data, where each record can have any number attributes, and records don't need to relate to each other. Searching inside NoSQL is faster than in SQL.
 
 ## User Story
-Mark runs a online alchol delivery site called "Alcohaul", he needs to use a database to store inventory. He needs records for wines to always get sorted by Categories, origin and price. But Mark also needs a database that can process insertion or deletion of sales records very fast in real-time. Also, when a sale happends, not all informations about the product has to be inputed, because if all information is entered into the database, Mark will evetually run out of local storage space (He's too poor to pay for AWS EBS). 
-He can run two type databases, with SQL storing informations about the wines he has, and NOSQL for sales and inventory. 
+Mark runs a online alchol delivery site called "Alcohaul", he needs to use a database to store inventory. He needs records for wines to always get sorted by Categories, origin and price. But Mark also needs a database that can process insertion or deletion of sales records very fast in real-time, because the sites has attracted lots of customers. Also, when a sale happends, not all informations about the product has to be inputed, because if all information is entered into the database, Mark will evetually run out of local storage space (He's too poor to pay for AWS EBS). 
+He can run two type databases, with SQL storing informations about the product his store has, and NoSQL for sales and inventory. 
 
 
 ### Script
