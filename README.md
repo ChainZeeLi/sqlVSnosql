@@ -10,14 +10,14 @@ Mark runs a online alchol delivery site called "Alcohaul", he needs to use a dat
 He can run two type databases, with SQL storing informations about the wines he has, and NOSQL for sales and inventory. 
 
 
-### Scripts
-⋅⋅* Note: for Alcohaul_mongo.py, it's assumed that you have mongo server setup on your local machine*
+### Script
+*Note: for Alcohaul_mongo.py, it's assumed that you have mongo server setup on your local machine*
 
 * Alcohaul_sql.py 
-⋅⋅* records are loaded into local sql datebase from the json file
-⋅⋅* provides search function to search with a key/value combination
-⋅⋅* privides a insertion function to add new products
+  * records are loaded into local sql datebase from the json file
+  * provides search function to search with a key/value combination
+  * privides a insertion function to add new products
 
 * Alcohaul_mongo.py
-⋅⋅* provides search function to search with a Python dictionary as input, with keys/values in the dictionary
-⋅⋅* provides a function to insert a single record. 
+  * provides search function to search with a Python dictionary as input, with keys/values in the dictionary
+  * provides a function to insert a single record. 
